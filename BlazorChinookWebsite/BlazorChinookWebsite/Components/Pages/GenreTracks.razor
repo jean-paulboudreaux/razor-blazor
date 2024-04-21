@@ -1,0 +1,51 @@
+@page "/genreTracks"
+@using ChinookLibrary.Models
+@using Microsoft.AspNetCore.Antiforgery; 
+@using ChinookLibrary
+@attribute [RequireAntiforgeryToken]
+
+
+<h3>List Track by Genre</h3>
+
+<EditForm Model="@this" OnSubmit="@Submit" FormName="TheseGenreTracks">
+    <datalist id="genreTrackList">
+        @foreach (var c in DbUtility.GetListAllGenres())
+        { 
+            <option label=@c value=@c/>
+        }
+
+    </datalist>
+    <InputText @bind-Value="@ChosenGenre" list="genreTrackList"/>
+    <button type="submit">Submit</button>
+</EditForm>
+
+
+
+@if (submitted)
+{
+    <br/>
+    <h3>@ChosenGenre Information</h3>
+    try
+    {
+        foreach (var n in DbUtility.ListTracksByGenre(ChosenGenre))
+        {
+            @($"{n}")
+            <br/>
+        }
+    }
+
+    catch
+    {
+        @($"{ChosenGenre} not listed")
+    } 
+}
+
+
+@code {
+    bool submitted = false;
+    [SupplyParameterFromForm] 
+    public string? ChosenGenre { get; set; }
+
+
+    private void Submit() => submitted = true;
+}

@@ -1,0 +1,24 @@
+@page "/composers"
+@using ChinookLibrary.Models
+@using Microsoft.AspNetCore.Antiforgery; 
+@using ChinookLibrary
+@attribute [RequireAntiforgeryToken]
+
+
+<h3>Composers</h3>
+
+
+<textarea style="width: 600px; min-height: 300px">
+
+@foreach (var composer in DbUtility.Composers()) 
+{
+        @($"{composer.Key} ") 
+        @("\n")
+}
+
+</textarea>
+
+
+@code {
+    
+}

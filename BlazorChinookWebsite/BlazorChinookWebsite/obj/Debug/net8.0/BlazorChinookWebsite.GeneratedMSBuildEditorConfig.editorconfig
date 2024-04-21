@@ -1,0 +1,79 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = BlazorChinookWebsite
+build_property.RootNamespace = BlazorChinookWebsite
+build_property.ProjectDir = /Users/jean-paulboudreaux/Downloads/BlazorChinook/BlazorChinookWebsite/BlazorChinookWebsite/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/jean-paulboudreaux/Downloads/BlazorChinook/BlazorChinookWebsite/BlazorChinookWebsite
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/jean-paulboudreaux/Downloads/BlazorChinook/BlazorChinookWebsite/BlazorChinookWebsite/Components/App.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9BcHAucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jean-paulboudreaux/Downloads/BlazorChinook/BlazorChinookWebsite/BlazorChinookWebsite/Components/Pages/AIArtists.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9BSUFydGlzdHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jean-paulboudreaux/Downloads/BlazorChinook/BlazorChinookWebsite/BlazorChinookWebsite/Components/Pages/Artists.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9BcnRpc3RzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jean-paulboudreaux/Downloads/BlazorChinook/BlazorChinookWebsite/BlazorChinookWebsite/Components/Pages/ArtistTracks.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9BcnRpc3RUcmFja3MucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jean-paulboudreaux/Downloads/BlazorChinook/BlazorChinookWebsite/BlazorChinookWebsite/Components/Pages/Composers.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Db21wb3NlcnMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jean-paulboudreaux/Downloads/BlazorChinook/BlazorChinookWebsite/BlazorChinookWebsite/Components/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Db3VudGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jean-paulboudreaux/Downloads/BlazorChinook/BlazorChinookWebsite/BlazorChinookWebsite/Components/Pages/Error.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9FcnJvci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jean-paulboudreaux/Downloads/BlazorChinook/BlazorChinookWebsite/BlazorChinookWebsite/Components/Pages/Genres.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9HZW5yZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jean-paulboudreaux/Downloads/BlazorChinook/BlazorChinookWebsite/BlazorChinookWebsite/Components/Pages/GenreTracks.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9HZW5yZVRyYWNrcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jean-paulboudreaux/Downloads/BlazorChinook/BlazorChinookWebsite/BlazorChinookWebsite/Components/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Ib21lLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jean-paulboudreaux/Downloads/BlazorChinook/BlazorChinookWebsite/BlazorChinookWebsite/Components/Pages/Weather.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9XZWF0aGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jean-paulboudreaux/Downloads/BlazorChinook/BlazorChinookWebsite/BlazorChinookWebsite/Components/Routes.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9Sb3V0ZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jean-paulboudreaux/Downloads/BlazorChinook/BlazorChinookWebsite/BlazorChinookWebsite/Components/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9fSW1wb3J0cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jean-paulboudreaux/Downloads/BlazorChinook/BlazorChinookWebsite/BlazorChinookWebsite/Components/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9MYXlvdXQvTWFpbkxheW91dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-v53l5ha34t
+
+[/Users/jean-paulboudreaux/Downloads/BlazorChinook/BlazorChinookWebsite/BlazorChinookWebsite/Components/Layout/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9MYXlvdXQvTmF2TWVudS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-eaewridzzp

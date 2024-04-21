@@ -1,0 +1,61 @@
+﻿<div class="top-row ps-3 navbar navbar-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="">BlazorChinookWebsite</a>
+    </div>
+</div>
+
+<input type="checkbox" title="Navigation menu" class="navbar-toggler"/>
+
+<div class="nav-scrollable" onclick="document.querySelector('.navbar-toggler').click()">
+    <nav class="flex-column">
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
+                <span class="bi bi-house-door-fill-nav-menu" aria-hidden="true"></span> Home
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="genres">
+                <span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span> List Genres
+            </NavLink> 
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="artists">
+                <span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span> List Artists
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="composers">
+                <span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span> List Composers
+            </NavLink> 
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="genreTracks">
+                <span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span> List Tracks by Genre
+            </NavLink> 
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="tracksArtist">
+                <span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span> List Tracks by Artist
+            </NavLink> 
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="tracksAI">
+                <span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span> List Tracks by Artist(AI!)
+            </NavLink> 
+        </div>
+        
+        
+        @* *@
+        @* <div class="nav-item px-3"> *@
+        @*     <NavLink class="nav-link" href="counter"> *@
+        @*         <span class="bi bi-plus-square-fill-nav-menu" aria-hidden="true"></span> Counter *@
+        @*     </NavLink> *@
+        @* </div> *@
+        @* *@
+        @* <div class="nav-item px-3"> *@
+        @*     <NavLink class="nav-link" href="weather"> *@
+        @*         <span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span> Weather *@
+        @*     </NavLink> *@
+        @* </div> *@
+    </nav>
+</div>

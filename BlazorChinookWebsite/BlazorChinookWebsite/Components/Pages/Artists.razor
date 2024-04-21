@@ -1,0 +1,19 @@
+@page "/artists"
+@using ChinookLibrary.Models
+@using Microsoft.AspNetCore.Antiforgery; 
+@using ChinookLibrary
+@attribute [RequireAntiforgeryToken]
+
+<h3>Artists</h3>
+
+
+<textarea style="width: 600px; min-height: 300px">
+@foreach (var artist in DbUtility.ListArtists()) 
+{
+    @($"{artist}\n")
+}
+</textarea>
+
+@code {
+    
+}

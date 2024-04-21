@@ -1,0 +1,41 @@
+@page "/tracksArtist"
+@using ChinookLibrary.Models
+@using Microsoft.AspNetCore.Antiforgery; 
+@using ChinookLibrary
+@attribute [RequireAntiforgeryToken]
+
+<h3>List Tracks by Artist</h3>
+
+<EditForm Model="@this" OnSubmit="@Submit" FormName="TheseArtistTracks">
+    
+    <datalist id="artistlist">
+        @foreach (var name in DbUtility.ListArtists())
+        {
+            <option label=@name value=@name></option>
+        }
+    </datalist>
+    <InputText @bind-Value="Name" list="artistlist"/>
+    <button type="submit">Submit</button>
+</EditForm>
+
+
+@if (submitted) {
+    <br/>
+    <h3>Here is the List of Tacks By @Name</h3>
+    try
+    {
+        foreach (var n in DbUtility.ListTracksByArtist(Name)) {
+            @($"{n}")
+            <br/> }
+    }
+    catch
+    {
+        @($"{Name} not listed")
+    } }
+
+
+@code {
+    bool submitted = false;
+    [SupplyParameterFromForm] public string? Name { get; set; }
+    private void Submit() => submitted = true;
+}
